@@ -9,7 +9,9 @@
 
 <a href="https://paypal.me/askwakhid/"><img src="img/blue.svg" height="40"></a>
 <a href="https://trakteer.id/wakhid/"><img src="img/trakteer.png" height="40"></a>
+
 &nbsp;
+
 If you enjoyed this project — or just feeling generous, consider buying me a coffee. Cheers! :coffee:
 
 
@@ -73,6 +75,7 @@ Should you find an error or improve anything — whether in the config or in the
 <details>  
 <summary><strong>⚠️ What's not working</strong></summary>
 </br>
+
 - [ ] Internal Microphone, common issue laptop with Intel Smart Sound Technology ( Intel SST )
 - [ ] Safari DRM ```Use Chromium powered Browser or Firefox to watch Amazon Prime Video, Netflix, Disney+ and others```
 - [ ] AirDrop & Continuity
