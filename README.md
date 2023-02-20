@@ -8,7 +8,8 @@
 [![License](https://img.shields.io/badge/license-MIT-purple)](/LICENSE)
 
 <a href="https://paypal.me/askwakhid/"><img src="img/blue.svg" height="40"></a>
-<a href="https://trakteer.id/wakhid/"><img src="img/trakteer.png" height="40"></a> 
+<a href="https://trakteer.id/wakhid/"><img src="img/trakteer.png" height="40"></a>
+&nbsp;
 If you enjoyed this project — or just feeling generous, consider buying me a coffee. Cheers! :coffee:
 
 
