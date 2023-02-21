@@ -94,7 +94,6 @@ Should you find an error or improve anything — whether in the config or in the
 - [ ] Safari DRM ```Use Chromium powered Browser or Firefox to watch Amazon Prime Video, Netflix, Disney+ and others```
 - [ ] AirDrop & Continuity
 - [ ] Fingerprint Reader (Disabled with NoTouchID kext)
-- [ ] Touchscreen ( I will working on this as soon as possible )
 
 </details>
 
@@ -133,6 +132,7 @@ OpenCore is licensed under the [BSD 3-Clause License](https://github.com/acidant
 - [Acidanthera](https://github.com/acidanthera) for OpenCore and all the lovely hackintosh work.
 - [Dortania](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/icelake.html) For great and detailed guides.
 - [Baio1977](https://github.com/Baio1977/) Ventura EFI for T14 Gen 1.
+- [simprecicchiani](https://github.com/simprecicchiani/ThinkPad-T460s-macOS-OpenCore/) Helping me add Touchsreen to my T460s and works for T14 too.
 
 ---
 ```Copyright (c) 2022 Wakhid Nusa. <askwakhid@gmail.com>```
