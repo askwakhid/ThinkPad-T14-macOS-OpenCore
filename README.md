@@ -37,6 +37,20 @@ Should you find an error or improve anything — whether in the config or in the
 
 &nbsp;
 
+## 🧰 Post-Install (Optional)
+<details>  
+<summary><strong>Enable Touchscreen</strong></summary>
+</br>
+
+1. Open `/EFI/OC/Config.plist` with any editor
+1. Add the content of [#touchscreen.plist](EFI/OC/%23touchscreen.plist)
+1. Save and reboot the system
+**Note:** Tested on macOS Monterey, [working with gestures](https://youtu.be/FO_819ALalw).
+
+</details>
+
+&nbsp;
+
 ## 🔄 Update Tracker
 
 | Software  | Version                                                       |
