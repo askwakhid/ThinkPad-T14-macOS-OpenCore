@@ -1,7 +1,8 @@
-# Lenovo ThinkPad T14 Gen 1 - OpenCore Configuration
+# Lenovo ThinkPad T14 Gen 1 - OpenCore Configuration - macOS SONOMA 14.0
 
-<img align="right" src="/img/t14-gen-1-monterey.png" alt="macOS Monterey running on the T14 Gen 1" width="425">
+<img align="right" src="/img/t14-gen-1-sonoma.png" alt="macOS Sonoma running on the T14 Gen 1" width="425">
 
+[![macOS](https://img.shields.io/badge/macOS-Sonoma-brightgreen.svg)](https://developer.apple.com/documentation/macos-release-notes)
 [![macOS](https://img.shields.io/badge/macOS-Monterey-brightgreen.svg)](https://developer.apple.com/documentation/macos-release-notes)
 [![macOS](https://img.shields.io/badge/macOS-Mammoth-brightgreen.svg)](https://developer.apple.com/documentation/macos-release-notes)
 [![OpenCore](https://img.shields.io/badge/OpenCore-0.8.0-blue)](https://github.com/acidanthera/OpenCorePkg)
@@ -28,8 +29,8 @@ Should you find an error or improve anything — whether in the config or in the
 | --------- | ------------------------------------------ |
 | CPU       | Intel(R) Core(TM) i5-10210U CPU @ 1.60GHz  |
 | GPU       | Intel UHD Graphics 630                     |
-| SSD       | WD SN720 512GB M.2 NVMe SSD                |
-| Memory    | 16GB DDR4 2666Mhz                          |
+| SSD       | WD SN570 1TB M.2 NVMe SSD                |
+| Memory    | 32GB DDR4 3200Mhz but runnning on 2666Mhz due CPU limitation                          |
 | Camera    | 720p Camera + IR Camera                    |
 | Audio     | Intel Smart Sound Technology: Realtek HDA ALC257 (aka ALC3287)    |
 | WiFi & BT | Intel Wi-Fi 6 AX201 802.11ax 2x2 with BT5.2 (Soldered on)           |
@@ -38,6 +39,13 @@ Should you find an error or improve anything — whether in the config or in the
 &nbsp;
 
 ## 🧰 Post-Install (Optional)
+<details>  
+<summary><strong>Enable WIFI</strong></summary>
+</br>
+
+1. Install [Heliport](https://github.com/OpenIntelWireless/HeliPort)
+</details>  
+
 <details>  
 <summary><strong>Enable Touchscreen</strong></summary>
 </br>
@@ -55,8 +63,8 @@ Should you find an error or improve anything — whether in the config or in the
 
 | Software  | Version                                                       |
 | --------- | --------------------------------------------------------------|
-| [MacOS](https://www.apple.com/macos/)                            | 12.6.2   |
-| [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases)  | 0.8.8    |
+| [MacOS](https://www.apple.com/macos/)                            | 14.0  |
+| [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases)  | 0.9.5   |
 
 &nbsp;
 
@@ -66,7 +74,7 @@ Should you find an error or improve anything — whether in the config or in the
 <summary><strong>✅ What's working</strong></summary>
 </br>
  
-- [X] Intel WiFi & Bluetooth (thanks to [itlwn](https://github.com/OpenIntelWireless/itlwm))
+- [X] Intel WiFi & Bluetooth (thanks to [itlwn](https://github.com/OpenIntelWireless/itlwm) & [Heliport](https://github.com/OpenIntelWireless/HeliPort) )
 - [X] Brightness / Volume Control
 - [X] Battery Information
 - [X] Audio Out (Audio Jack & Speaker)
@@ -93,7 +101,6 @@ Should you find an error or improve anything — whether in the config or in the
 - [ ] Internal Microphone, common issue laptop with Intel Smart Sound Technology ( Intel SST )
 - [ ] Safari DRM ```Use Chromium powered Browser or Firefox to watch Amazon Prime Video, Netflix, Disney+ and others```
 - [ ] AirDrop & Continuity
-- [ ] Fingerprint Reader (Disabled with NoTouchID kext)
 
 </details>
 
